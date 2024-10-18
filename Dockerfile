@@ -10,10 +10,7 @@ WORKDIR /usr/src/app
 COPY . .
 
 RUN npm install
-
 RUN cd client && \
     npm run build
 
-RUN cd server && \
-    npm run build && \
-    npm run start
+CMD ["sh","./docker-entry.sh"]
