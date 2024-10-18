@@ -10,7 +10,6 @@ WORKDIR /usr/src/app
 COPY . .
 
 RUN npm install
-RUN cd client && \
-    npm run build
+RUN npm run build
 
 CMD npm run start
