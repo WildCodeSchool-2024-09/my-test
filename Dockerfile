@@ -13,4 +13,4 @@ RUN npm install
 RUN cd client && \
     npm run build
 
-CMD ["sh","./docker-entry.sh"]
+CMD npm run start
