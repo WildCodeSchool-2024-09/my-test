@@ -1,6 +1,16 @@
+import { useEffect } from "react";
+
 import "./App.css";
 
 function App() {
+  useEffect(() => {
+    fetch(`${import.meta.env.VITE_API_URL}/api/items`)
+      .then((response) => response.json())
+      .then((data) => {
+        console.info(data);
+      });
+  }, []);
+
   return (
     <>
       <header>
