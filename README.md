@@ -359,6 +359,7 @@ Nous accueillons avec plaisir les contributions ! Veuillez suivre ces étapes po
 5. **Push** vers votre branche (`git push origin feature/your-feature-name`).
 6. Créez une **Pull Request** sur le dépôt principal.
 
+
 **Guide de Contribution** :
 
 - Assurez-vous que votre code respecte les standards de codage en exécutant `npm run check` avant de pousser vos modifications.
